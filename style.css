@@ -371,3 +371,36 @@ ul li a:hover {
   align-items: center;
   justify-content: center;
 }
+
+.email-trip h1 {
+  margin-bottom: 20px;
+}
+
+.email-trip p {
+  font-size: 14px;
+  color: #999;
+}
+
+.together {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-trip .together .text {
+  width: 500px;
+}
+.input {
+  background-color: #fff;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.input input {
+  border: 0;
+  padding: 12px;
+  padding-left: 20px;
+  width: 400px;
+  outline: none;
+}
